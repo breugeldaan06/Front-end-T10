@@ -4,7 +4,7 @@
       <!-- Logo en Titel -->
       <div class="logo-title">
         <img src="https://via.placeholder.com/300x200?text=Nieuws+1" alt="BSO Rooie Noes Logo" class="logo"/>
-        <h1>Welcome to BSO Rooie Noes</h1>
+        <h1>Welkom bij BSO Rooie Noes</h1>
       </div>
 
       <!-- Carousel -->
