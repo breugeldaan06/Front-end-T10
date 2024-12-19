@@ -47,8 +47,8 @@ export default {
         { title: 'Event 2: Craft Workshop' },
       ],
       latestNews: [
-        'New afterschool programs announced!',
-        'Holiday schedule updates!',
+        'Nieuwe Collega nodig bij BSO!!',
+        'Breng u kind bij de BSO tijdens vakantie.',
       ],
     };
   },
