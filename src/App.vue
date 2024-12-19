@@ -1,5 +1,4 @@
 <template>
-
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
@@ -35,8 +34,13 @@
         </ul>
       </div>
     </div>
-
+   
   </nav>
+  <main class="main-container">
+    <router-view/>
+  </main>
+
+
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-container">
@@ -65,6 +69,7 @@
       
       </div>
     </footer>
+
 </template>
 
 <style>
@@ -87,7 +92,9 @@ nav a {
   font-weight: bold;
   color: #2c3e50;
 }
-
+main{
+  height: 100vh;
+}
 .footer {
   background-color: #f8f9fa;
   padding: 20px 0;
@@ -107,6 +114,7 @@ nav a {
   flex: 1;
   min-width: 200px;
   margin: 10px;
+
 }
 
 .footer-section h5 {
