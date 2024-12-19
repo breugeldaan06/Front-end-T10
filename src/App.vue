@@ -2,7 +2,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand">Navbar</router-link>
+      <router-link to="/" class="navbar-brand">Rooie nous</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -32,6 +32,11 @@
             </router-link>
           </li>
           <li class="nav-item">
+            <router-link to="/News" class="nav-link">
+              Nieuws
+            </router-link>
+          </li>
+          <li class="nav-item">
             <router-link to="/contact" class="nav-link">
               Contact
             </router-link>
@@ -50,19 +55,21 @@
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-section">
-          <h5>About Us</h5>
-          <p>Your trusted source for modern web solutions.</p>
+          <h5>Over ons</h5>
+          <p>Voor de beste opvang!</p>
         </div>
         <div class="footer-section">
-          <h5>Quick Links</h5>
+          <h5>Snelle links</h5>
           <ul>
             <li><router-link to="/">Home</router-link></li>
-            <li><router-link to="/about">About</router-link></li>
+            <li><router-link to="/about">leid(st)ers</router-link></li>
+            <li><router-link to="/infromation">Informatie</router-link></li>
+            <li><router-link to="/News">Nieuws</router-link></li>
             <li><router-link to="/contact">Contact</router-link></li>
           </ul>
         </div>
         <div class="footer-section">
-          <h5>Follow Us</h5>
+          <h5>Volg ons</h5>
           <div class="social-icons">
             <a href="https://facebook.com" target="_blank">Facebook</a>
             <a href="https://twitter.com" target="_blank">Twitter</a>
