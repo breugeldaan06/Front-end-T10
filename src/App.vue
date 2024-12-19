@@ -93,7 +93,7 @@ nav a {
   color: #2c3e50;
 }
 main{
-  height: 100vh;
+  min-height: 100vh;
 }
 .footer {
   background-color: #f8f9fa;
