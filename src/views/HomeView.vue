@@ -3,7 +3,7 @@
     <div class="home-container">
       <!-- Logo en Titel -->
       <div class="logo-title">
-        <img src="{logo_url}" alt="BSO Rooie Noes Logo" class="logo" />
+        <img src="{logo_url}" alt="BSO Rooie Noes Logo" class="logo"/>
         <h1>Welcome to BSO Rooie Noes</h1>
       </div>
 
