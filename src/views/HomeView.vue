@@ -3,7 +3,7 @@
     <div class="home-container">
       <!-- Logo en Titel -->
       <div class="logo-title">
-        <img src="{logo_url}" alt="BSO Rooie Noes Logo" class="logo"/>
+        <img src="https://via.placeholder.com/300x200?text=Nieuws+1" alt="BSO Rooie Noes Logo" class="logo"/>
         <h1>Welcome to BSO Rooie Noes</h1>
       </div>
 
@@ -16,7 +16,7 @@
             class="carousel-slide"
             :class="{ active: currentSlide === index }"
           >
-            <img src="public/images/rooienoes_logo.png" alt="Event Image" />
+            <img src="https://via.placeholder.com/300x200?text=Nieuws+1" alt="Event Image" />
             <h2 class="slide-title">{{ slide.title }}</h2>
           </div>
         </div>
@@ -26,7 +26,7 @@
 
       <!-- News -->
       <div class="news">
-        <h2>Latest News</h2>
+        <h2>Laatste nieuw</h2>
         <ul>
           <li v-for="(newsItem, index) in latestNews" :key="index">{{ newsItem }}</li>
         </ul>
