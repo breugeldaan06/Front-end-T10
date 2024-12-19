@@ -23,7 +23,12 @@
           </li>
           <li class="nav-item">
             <router-link to="/about" class="nav-link">
-              About
+              leid(st)ers 
+            </router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/infromation" class="nav-link">
+              Informatie
             </router-link>
           </li>
           <li class="nav-item">

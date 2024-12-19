@@ -7,23 +7,6 @@
         <h1>Welcome to BSO Rooie Noes</h1>
       </div>
 
-      <!-- Inleidende Tekst -->
-      <div class="intro-text">
-        <p>
-          Uw kind is het waardevolste bezit en als werkende en/of studerende ouder/verzorger
-          zoek je natuurlijk een buitenschoolse opvang die bij u en bij uw kind past.
-        </p>
-        <p>
-          Wij bieden opvang, begeleiding en ondersteuning aan kinderen vanaf de geboorte tot het moment dat ze de basisschool verlaten. Zowel de dagopvang als de buitenschoolse opvang vindt plaats in een ongedwongen en huiselijke sfeer.
-        </p>
-        <p>
-          Wij sluiten aan bij de wensen van de ouders/verzorgers en de behoefte en ontwikkelingsfase van het individuele kind. Ons team is hecht, zorgzaam, toegewijd en professioneel. De zorg voor uw kind kan met het volste vertrouwen aan hen worden overgedragen. Binnen onze kinderopvang gebruiken wij de Gordon-methode als leidraad voor de communicatie.
-        </p>
-        <p>
-          Ons ruime, sfeervolle pand is gelegen in Ons Dorp in een rustige, groene omgeving in de buurt van een van de grootste speeltuinen.
-        </p>
-      </div>
-
       <!-- Carousel -->
       <div class="carousel">
         <div class="carousel-container">
@@ -99,15 +82,6 @@ export default {
   height: auto;
   margin: 0 auto;
   display: block;
-}
-
-.intro-text {
-  text-align: center;
-  margin: 20px auto;
-  max-width: 800px;
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #333;
 }
 
 .carousel {
